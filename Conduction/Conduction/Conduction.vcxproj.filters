@@ -18,10 +18,19 @@
     <ClInclude Include="o2DMesh.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="oBoundary.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="oBoundaryCondition.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="o2DMesh.cpp">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="oBoundaryCondition.cpp">
+      <Filter>Archivos de recursos</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

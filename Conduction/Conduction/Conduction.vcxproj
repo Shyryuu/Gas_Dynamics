@@ -119,9 +119,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="o2DMesh.h" />
+    <ClInclude Include="oBoundary.h" />
+    <ClInclude Include="oBoundaryCondition.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="o2DMesh.cpp" />
+    <ClCompile Include="oBoundaryCondition.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
